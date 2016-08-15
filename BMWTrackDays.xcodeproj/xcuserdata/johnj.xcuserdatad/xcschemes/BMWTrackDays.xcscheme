@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C269183D1D61B92000550AE4"
+               BuildableName = "BMWTrackDays.app"
+               BlueprintName = "BMWTrackDays"
+               ReferencedContainer = "container:BMWTrackDays.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C26918541D61B92100550AE4"
+               BuildableName = "BMWTrackDaysTests.xctest"
+               BlueprintName = "BMWTrackDaysTests"
+               ReferencedContainer = "container:BMWTrackDays.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C269185F1D61B92100550AE4"
+               BuildableName = "BMWTrackDaysUITests.xctest"
+               BlueprintName = "BMWTrackDaysUITests"
+               ReferencedContainer = "container:BMWTrackDays.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C269183D1D61B92000550AE4"
+            BuildableName = "BMWTrackDays.app"
+            BlueprintName = "BMWTrackDays"
+            ReferencedContainer = "container:BMWTrackDays.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C269183D1D61B92000550AE4"
+            BuildableName = "BMWTrackDays.app"
+            BlueprintName = "BMWTrackDays"
+            ReferencedContainer = "container:BMWTrackDays.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C269183D1D61B92000550AE4"
+            BuildableName = "BMWTrackDays.app"
+            BlueprintName = "BMWTrackDays"
+            ReferencedContainer = "container:BMWTrackDays.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
